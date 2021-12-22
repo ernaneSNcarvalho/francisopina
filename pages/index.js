@@ -11,7 +11,7 @@ const Index = () => {
     return (
         <div>
             <PageTitle title='Seja Bem Vindo' />
-            <p className='mt-12 mb-2 font-bold text-center'>Fran Di Carvalho Consultoria do Sono Infantil. <br /> Estamos abertos a ouvir sua opinião e sugestão.</p>
+            <p className='mt-12 mb-2 font-bold sm:text-center'>Fran Di Carvalho Consultoria do Sono Infantil. <br /> Estamos abertos a ouvir sua opinião e sugestão.</p>
             <div className='text-center mt-12 my-12 font-bold'>
                 <Link href='/pesquisa'>
                     <a className='bg-black text-white px-6 py-4 font-bold rounded-lg shadow-lg hover:shadow'>Dar opiniao ou sugestao</a>

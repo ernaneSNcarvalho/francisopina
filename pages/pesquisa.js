@@ -45,12 +45,12 @@ const Pesquisa = () => {
         O restaurante X sempre busca por atender melhor seus clientes.<br/>
         Por isso, estamos sempre abertos a ouvir sua opinião.
       </p>
-      {!success && <div className='w-1/4 mx-auto'>
+      {!success && <div className='w-1/4 mx-auto sm:justify-center'>
         <form onSubmit={formik.handleSubmit}>
           <label className='font-bold'>Seu nome:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='md:w-full md:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='Nome' 
             onChange={formik.handleChange} 
             name='Nome' 
@@ -63,7 +63,7 @@ const Pesquisa = () => {
           <label className='font-bold'>E-mail:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='md:w-full md:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='E-mail' 
             onChange={formik.handleChange} 
             name='Email' 
@@ -76,7 +76,7 @@ const Pesquisa = () => {
           <label className='font-bold'>Whatsapp:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='md:w-full md:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='Whatsapp' 
             onChange={formik.handleChange} 
             name='Whatsapp' 
@@ -89,7 +89,7 @@ const Pesquisa = () => {
           <label className='font-bold'>Sua crítica ou sugestão:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='md:w-full md:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='Descreva aqui.'
             onChange={formik.handleChange} 
             name='Critica' 
