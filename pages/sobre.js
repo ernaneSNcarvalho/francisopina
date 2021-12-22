@@ -7,16 +7,12 @@ const Sobre = () => {
         <div>
             <PageTitle title='Sobre' />
         
-            <div className='text-center font-bold italic'>
-                <p>A Di Carvalho Web Systems desenvolve soluções tecnólogicas para sua empresa, <br /> 
-                como os sites institucionais que performam dez vezes um site comum, além de utilizar <br /> 
-                técnicas avançadas de SEO para otimizar o ranqueamento no google. 
+            <div className='m-8 text-center font-bold italic p-5'>
+                <p>A Di Carvalho Web Systems desenvolve soluções para sua empresa, <br /> 
+                como os sites institucionais e lojas virtuais, que utilizam técnicas avançadas <br /> 
+                de SEO para otimizar o ranqueamento no google. 
                 </p>
-                <br /> 
-                <p>
-                Trabalhamos também com produção de lojas virtuais tornando seu negócio uma vitrine na <br /> 
-                rede mundial de computadores(internet-wwww).<br /> 
-                </p>
+                
                 <br /> 
                 <p> Fornececemos serviços de gestão do trafego pago, gerindo as campanhas e otimizando o ranqueamento <br />
                 nas principais redes sociais (Instagram e Facebook) além claro do próprio google, <br /> 
