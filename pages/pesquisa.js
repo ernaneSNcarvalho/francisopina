@@ -42,7 +42,7 @@ const Pesquisa = () => {
         <h1 className="font-bold text-2xl">Críticas e sugestões</h1>
       </div>
       <p className="mt-6 mb-6 text-center">
-        O restaurante X sempre busca por atender melhor seus clientes.<br/>
+        O estabelecimento X sempre busca por atender melhor seus clientes.<br/>
         Por isso, estamos sempre abertos a ouvir sua opinião.
       </p>
       {!success && <div className='w-1/4 mx-auto'>
