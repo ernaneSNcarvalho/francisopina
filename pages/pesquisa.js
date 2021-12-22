@@ -50,7 +50,7 @@ const Pesquisa = () => {
           <label className='font-bold'>Seu nome:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-start p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='Nome' 
             onChange={formik.handleChange} 
             name='Nome' 
@@ -63,7 +63,7 @@ const Pesquisa = () => {
           <label className='font-bold'>E-mail:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-start p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='E-mail' 
             onChange={formik.handleChange} 
             name='Email' 
@@ -76,7 +76,7 @@ const Pesquisa = () => {
           <label className='font-bold'>Whatsapp:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-start p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='Whatsapp' 
             onChange={formik.handleChange} 
             name='Whatsapp' 
@@ -89,7 +89,7 @@ const Pesquisa = () => {
           <label className='font-bold'>Sua crítica ou sugestão:</label>
           <input 
             type="text" 
-            className='sm:w-full sm:justify-start p-4 block shadow bg-blue-100 my-2 rounded' 
+            className='sm:w-full sm:justify-center p-4 block shadow bg-blue-100 my-2 rounded' 
             placeholder='Descreva aqui.'
             onChange={formik.handleChange} 
             name='Critica' 
@@ -131,7 +131,7 @@ const Pesquisa = () => {
           {formik.errors.Indica ? (
             <div className='text-red-700'>{formik.errors.Indica}</div>
           ) : null}
-          <button type='submit' className='sm:w-full sm:justify-start bg-black text-yellow-300 px-12 py-4 font-bold rounded-lg shadow-lg hover:shadow mb-6'>Enviar</button>        
+          <button type='submit' className='sm:w-full sm:justify-center bg-black text-yellow-300 px-12 py-4 font-bold rounded-lg shadow-lg hover:shadow mb-6'>Enviar</button>        
         </form>
       </div>}
       {success && <div className='w-1/5 mx-auto'>
